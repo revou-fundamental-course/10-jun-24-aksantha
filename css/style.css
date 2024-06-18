@@ -1,11 +1,14 @@
 body {
     color: white;
-    background-color: rgba(7,0,134,1);
+    background-image: url(/10-jun-24-aksantha/assets/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: monospace;
     font-size: 15px;
 }
 main{
-    background-color: rgba(5, 102, 237,0.5);
+    background-color: rgba(64, 64, 64,0.8);
     border-radius: 10px;
     padding: 10px;
 }
@@ -58,4 +61,7 @@ button{
 .subject-instruction{
     margin-bottom: 10px;
     margin-top: auto;
+}
+a{
+    color: white;
 }
