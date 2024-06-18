@@ -1,10 +1,11 @@
 body {
+    color: white;
+    background-color: rgba(7,0,134,1);
     font-family: monospace;
     font-size: 15px;
-    background: linear-gradient(183deg, rgba(7,0,134,1) 0%, rgba(0,142,255,1) 46%, rgba(255,255,255,1) 78%);
 }
 main{
-    background-color: turquoise;
+    background-color: rgba(5, 102, 237,0.5);
     border-radius: 10px;
     padding: 10px;
 }
