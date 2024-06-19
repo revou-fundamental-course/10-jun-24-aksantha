@@ -11,23 +11,29 @@
         <h1>Website Converter Temperature</h1>
     </header>
     <main>
-        <section class="container-input">
-            <p class="subject-instruction">Masukkan suhu derajat Celcius (&deg;C) lalu tekan konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F)
+        <section class="subject-instruction">
+            <p>Masukkan suhu derajat Celcius (&deg;C) lalu tekan konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F)
                 dan klik reverse jika ingin mengkonversi dari bentuk Fahrenheit (&deg;F) ke derajat Celcius (&deg;C)!
             </p>
-            <h3>Celcius (&deg;C)/Fahrenheit (&deg;F) :</h3>
-            <textarea class="container-celcius"></textarea><br>
-            <button class="button skyblue-color" id="convertBTN">Konversi</button>
-            <button class="button red-color" id="resetBTN">Reset</button>
-            <button class="button flowerblue-color" id="reverseBTN">Reverse</button>
         </section>
-        <section class="container-output">
-            <h3>Fahrenheit (&deg;F)/Celcius (&deg;C) :</h3>
-            <textarea class="container-result"></textarea>
+        <section class="container-input">
+            <section id="celcius">
+                <h3>Celcius (&deg;C)/Fahrenheit (&deg;F) :</h3>
+                <textarea class="container-celcius" id="inputCelcius"></textarea><br>
+            </section>
+            <a><button class="button skyblue-color" id="convertBTN">Konversi</button></a>
+            <a><button class="button red-color" id="resetBTN">Reset</button></a>
+            <a><button class="button flowerblue-color" id="reverseBTN">Reverse</button></a>
+            <section id="fahrenheit">
+                <h3>Fahrenheit (&deg;F)/Celcius (&deg;C) :</h3>
+                <textarea class="container-fahrenheit" id="inputFahrenheit"></textarea>
+            </section>
+        </section>
+        <section class="container-output" id="formula">
             <h3>Cara Kalkulasi :</h3>
             <textarea class="container-result"></textarea><hr>
         </section>
-        <section class="container-informationCelcius">
+        <section class="container-info">
             <h1>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
             <p>Suhu <span class="subject-info">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="subject-info">S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32.</p>
             <p><span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> x 9/5) + 32</p>
@@ -43,6 +49,7 @@
     <footer>
         <h2>Created by I Putu Ananta Adi Wijaya | Image by : <a href="https://wallpapersmug.com/w/wallpaper/tag/abstract/page/3" target="_blank">WallpapersMug.com</a></h2>
     </footer>
+    <script src="/10-jun-24-aksantha/js/"></script>
 
 </body>
 </html>

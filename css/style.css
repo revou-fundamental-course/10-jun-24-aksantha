@@ -33,6 +33,14 @@ h3 {
     height: 60px;
     width: 280px;
 }
+.container-fahrenheit{
+    resize: none;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    height: 60px;
+    width: 280px;
+}
 .container-result{
     resize: none;
     background-color: ghostwhite;
