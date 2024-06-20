@@ -10,7 +10,7 @@ body {
 main{
     background-color: rgba(64, 64, 64,0.8);
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
     box-shadow: 0px 4px 10px 4px rgba(64, 64, 64,0.8);
 }
 header{
@@ -25,34 +25,57 @@ h3 {
     font-style: italic;
     font-size: 18px;
 }
+.container-input{
+    display: flex;
+    padding: 25px;
+    margin: 5px;
+    place-content: space-around;
+    text-align: center;
+}
+.container-output{
+    text-align: center;
+}
 .container-celcius{
     resize: none;
-    background-color: ghostwhite;
+    background-color: gainsboro;
     border-radius: 10px;
     margin-bottom: 5px;
-    height: 60px;
-    width: 280px;
+    height: 95px;
+    width: 310px;
+    outline: none;
 }
 .container-fahrenheit{
     resize: none;
-    background-color: ghostwhite;
+    background-color: gainsboro;
     border-radius: 10px;
     margin-bottom: 5px;
-    height: 60px;
-    width: 280px;
+    height: 95px;
+    width: 310px;
+    outline: none;
 }
 .container-result{
     resize: none;
-    background-color: ghostwhite;
+    background-color: gainsboro;
     border-radius: 10px;
-    height: 60px;
-    width: 280px;
+    height: 95px;
+    width: 310px;
+    outline: none;
 }
+
 button{
     border-radius: 8px;
     border: 0px;
-    height: 30px;
-    width: 90px;
+    height: 40px;
+    width: 100px;
+    font-family: monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+button:hover{
+    border-radius: 8px;
+    border: 0px;
+    height: 45px;
+    width: 110px;
     font-family: monospace;
 }
 .skyblue-color{
