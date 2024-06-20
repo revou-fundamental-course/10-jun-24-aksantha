@@ -1,3 +1,4 @@
+//calculation-celcius
 document.getElementById('convertBTN').addEventListener('click', function() {
     const celcius = parseFloat(document.getElementById('inputCelcius').value);
     if (!isNaN(celcius)) {
@@ -9,6 +10,7 @@ document.getElementById('convertBTN').addEventListener('click', function() {
     }
 });
 
+//calculation-fahrenheit
 document.getElementById('reverseBTN').addEventListener('click', function() {
     const fahrenheit = parseFloat(document.getElementById('inputFahrenheit').value);
     if (!isNaN(fahrenheit)) {
@@ -20,7 +22,10 @@ document.getElementById('reverseBTN').addEventListener('click', function() {
     }
 });
 
+//reset
 document.getElementById('resetBTN').addEventListener('click', function() {
+ 
+    //button-instruction
     document.getElementById('inputCelcius').value = '';
     document.getElementById('inputFahrenheit').value = '';
     document.querySelector('.container-result').value = '';
